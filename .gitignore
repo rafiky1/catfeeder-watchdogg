@@ -1,0 +1,22 @@
+# Python environment
+env/
+__pycache__/
+*.pyc
+
+# Logs and system files
+*.log
+*.db
+sessions.csv
+snapshots/
+*.jpg
+
+# Streamlit stuff
+.streamlit/
+
+# OS-specific
+.DS_Store
+venv/
+venv/
+*.db
+*.log
+__pycache__/

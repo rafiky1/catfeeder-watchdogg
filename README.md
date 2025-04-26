@@ -20,12 +20,16 @@ Built with Python, Streamlit, FastAPI, and SQLite3.
 Clone this repo:
 git clone https://github.com/rafiky1/catfeeder-watchdogg.git
 cd catfeeder-watchdogg
+
 Install the dependencies:
 pip install -r requirements.txt
+
 Run the API server:
 uvicorn api_server:app --host 0.0.0.0 --port 8000 --reload
+
 Run the Dashboard:
 streamlit run dashboard.py
+
 (Optional) Auto-start on Raspberry Pi boot:
 Configure the start_feeder.sh script with systemd
 Your server and dashboard will auto-launch at startup!

@@ -34,6 +34,19 @@ streamlit run dashboard.py
 Configure the start_feeder.sh script with systemd
 Your server and dashboard will auto-launch at startup!
 
+x✅ How to Run It:
+chmod +x start_feeder.sh   # Run this once to make it executable
+./start_feeder.sh
+To stop the background processes later:
+
+ps aux | grep uvicorn
+ps aux | grep streamlit
+ps aux | grep camera_logger
+Then kill them using:
+
+kill <PID>
+Or reboot the Pi to clear everything.
+
 🛠 Technologies Used
 
 Python 3.11
